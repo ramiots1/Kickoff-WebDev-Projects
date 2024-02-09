@@ -1,0 +1,234 @@
+body {
+    text-align: center;
+    background-color: #252525;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+div {
+    background-color: #ffffff17;
+    width: 90%;
+    border-radius: 16px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 16px;
+
+}
+.intro:hover{
+    .rami {
+    text-shadow: 0px 0px 25px #006aff;
+    color: #0082E1;
+    transition: all 0.5s;
+    }
+}
+.project:hover{
+    .design {
+    text-shadow: 0px 0px 25px #006aff;
+    color: #0082E1;
+    transition: all 0.5s;
+    }
+}
+.intro{
+    .rami {
+    transition: all 0.5s;
+    }
+}
+.project{
+    .design {
+    transition: all 0.5s;
+    }
+}
+a {
+    color: #58a0ff;
+    font-weight: 700;
+    text-decoration-line: none;
+}
+a:hover {
+    color: #ffffff;
+    transition: all 0.5s;
+}
+.contact-button {
+    background: none;
+    color: #ffffff;
+    border-color: #ffffff;
+    height: 35px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;  
+    font-weight: bold;
+    margin: 10px;
+    
+}
+.contact-button:active{
+    opacity: 0.5;
+    background-color: #0082E1;
+    border: none;
+}
+.contact-button:hover {
+    background-color: #0082E1;
+    border: none;
+    transition: all 0.5s;
+}
+.postsul{
+    margin: 20px;
+    overflow: auto;
+    white-space: nowrap;
+}
+.post{
+    width: 320px;
+    display: inline-block;
+    margin-inline: 10px;
+}
+.post3{
+    width: 240px;
+    margin-inline: 50px;
+}
+.p2 {
+    font-size: small;
+    font-weight: 50;
+}
+.post2 {
+    width: 360px;
+    margin-bottom: 10px;
+
+}
+.container {
+    color: #252525;
+    font-weight: 700;
+    background-color: #ffffffaa;
+    width: 90%;
+    border-radius: 16px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 16px;
+}
+img{
+    margin-inline:10px ;
+    
+}
+.shape{
+    margin: 0%;
+}
+.tellme {
+    padding-inline: 15px;
+    border-radius: 100px;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    box-shadow: 0px 0px 20px  #000000af;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fffffff1;
+    transition: all 0.5s;
+    text-align: left;
+}
+.tellme:hover{
+    width: 45%; 
+    transition: all 0.5s;
+}
+.sendbutton {
+    background: none;
+    color: #ffffff;
+    border-color: #ffffff;
+    height: 35px;
+    width: 70px;
+    border-radius: 20px;
+    cursor: pointer;  
+    font-weight: bold;
+    margin: 1px;
+    
+}
+.sendbutton:active{
+    opacity: 0.5;
+    background-color: #0082E1;
+    border: none;
+}
+.sendbutton:hover {
+    background-color: #0082E1;
+    border: none;
+    transition: all 0.5s;
+}
+.heyo {
+    text-align: center;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.39);
+    padding: 10px;
+}
+header{
+    position: sticky;
+    top: 0;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #373737;
+}
+.logosection {
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    background: none;
+}
+.logo {
+    margin-top: 5px;
+}
+nav {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+nav li {
+    margin-right: 20px;
+    width: max-content;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+}
+.menu-toggle {
+    display: none;
+}
+@media (max-width: 768px) {
+    nav  {
+        display: none;
+
+        text-decoration: none;
+        background-color: #252525;
+        color: white;
+        top: 50px;
+        left: 100px;
+    }
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        font-size: large;
+        margin-right: 2%;
+        border-radius: 20px;
+        background: none;
+        border-color: #ffffff00;
+        color: #ffffff;
+        transition: all 0.5s;
+    }
+    .menu-toggle:hover {
+        text-shadow: 0px 0px 20px #ffffff;
+        transition: all 0.5s;
+        nav {
+            display: flex;
+        }
+
+    }
+    
+}
